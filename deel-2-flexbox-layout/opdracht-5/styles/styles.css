@@ -1,1 +1,50 @@
-/*Schrijf hier jouw CSS*/
+.contentfullpage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+header{
+    display: flex;
+    height: 15%;
+}
+
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+}
+
+main nav{
+    display: flex;
+    order: -1;
+    width: 15%;
+}
+
+main article{
+    display: flex;
+    width: 70%;
+}
+
+main aside{
+    display: flex;
+    width: 15%;
+}
+
+
+footer{
+    display: flex;
+    height: 15%;
+}

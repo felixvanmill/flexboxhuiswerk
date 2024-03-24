@@ -1,1 +1,84 @@
-/*Schrijf hier jouw CSS*/
+
+
+.opdracht-1 ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.opdracht-2 ul{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+}
+
+.opdracht-2 li {
+    flex-grow: 1; /* Make all items grow equally */
+    flex-basis: 0; /* Ensure each item starts with equal size */
+}
+
+.opdracht-3 ul {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+}
+
+
+.opdracht-3 ul li:nth-child(1) {
+    align-self: flex-start; /* Align the first item to the start (left) */
+}
+
+.opdracht-3 ul li:nth-child(2) {
+    align-self: center; /* Align the second item to the center */
+}
+
+.opdracht-3 ul li:nth-child(3) {
+    align-self: flex-end; /* Align the third item to the end (right) */
+}
+
+.opdracht-4 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.opdracht-5 {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines or columns */
+}
+
+.opdracht-5 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.opdracht-5 ul:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.opdracht-5 ul:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opdracht-5 ul:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+
+
+
+

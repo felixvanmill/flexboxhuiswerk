@@ -1,1 +1,60 @@
-/*Schrijf hier jouw CSS*/
+*{
+
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+}
+
+nav{
+    display: flex;
+    width: 15%;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+}
+
+.outer-col-2{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+
+}
+
+.inner-row{
+    display: flex;
+    height: 100%;
+}
+
+.inner-col{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+header{
+    display: flex;
+    height: 15%;
+}
+
+article{
+    display: flex;
+    height: 100%;
+
+}
+
+aside{
+    display: flex;
+    width: 20%;
+
+}
+
+footer{
+    display: flex;
+    height: 15%;
+}
+
+

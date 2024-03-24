@@ -1,1 +1,59 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+}
+
+
+header {
+    display: flex; /* Use flexbox */
+    flex-direction: row;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+    height: 15vh;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+}
+main article {
+    display: flex;
+    width: 80%;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+    flex-wrap: wrap;
+}
+
+main nav{
+    display: flex;
+    width: 10%;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+}
+
+main aside{
+    display: flex;
+    width:10%;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+}
+
+footer{
+    display: flex;
+    height: 15vh;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+}
+
+article{
+    display: flex;
+}
+

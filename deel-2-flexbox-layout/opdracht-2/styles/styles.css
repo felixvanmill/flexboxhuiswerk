@@ -1,1 +1,52 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+}
+
+.col-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+}
+
+header{
+    display: flex;
+    height: 20%;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+}
+main{
+    display: flex;
+    height: 60%;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+}
+
+main article{
+    display: flex;
+    width: 100%;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+}
+
+footer{
+    display: flex;
+    height: 20%;
+    flex-grow: 0; /* Disable flex grow */
+    flex-shrink: 0; /* Disable flex shrink */
+}
